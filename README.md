@@ -1,7 +1,7 @@
 (arm problem 
-python -m pip install --upgrade pip --user
+$python -m pip install --upgrade pip --user
 $ sudo apt-get install python
-python3 -m pip install .
+$python3 -m pip install .
 
 libgnutls-dev (Required for HTTPS, BitTorrent, Checksum support)
 nettle-dev (Required for BitTorrent, Checksum support)
