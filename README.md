@@ -1,3 +1,30 @@
+(arm problem 
+python -m pip install --upgrade pip --user
+$ sudo apt-get install python
+python3 -m pip install .
+
+libgnutls-dev (Required for HTTPS, BitTorrent, Checksum support)
+nettle-dev (Required for BitTorrent, Checksum support)
+libgmp-dev (Required for BitTorrent)
+libssh2-1-dev (Required for SFTP support)
+libc-ares-dev (Required for async DNS support)
+libxml2-dev (Required for Metalink support)
+zlib1g-dev (Required for gzip, deflate decoding support in HTTP)
+libsqlite3-dev (Required for Firefox3/Chromium cookie support)
+pkg-config (Required to detect installed libraries)
+You can use libgcrypt-dev instead of nettle-dev and libgmp-dev:
+libgpg-error-dev (Required for BitTorrent, Checksum support)
+libgcrypt-dev (Required for BitTorrent, Checksum support)
+libxml2-dev
+libcppunit-dev
+autoconf
+automake
+autotools-dev
+autopoint
+libtool
+
+
+
 This is a Telegram Bot written in Python for mirroring files on the Internet to your Google Drive or Telegram. Based on [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot)
 
 # Features:
